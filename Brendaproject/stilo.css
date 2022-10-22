@@ -1,0 +1,53 @@
+body{
+    background-image: url(https://media.giphy.com/media/V4NSR1NG2p0KeJJyr5/giphy.gif);
+     font-family: cursive;
+ }
+ 
+ form{
+     padding-top: 170px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+ 
+   
+ }
+ .Eu{
+     
+     display: flex;
+     flex-direction: column;
+     width: 20%;
+     padding: 20px 0 50px 0px;
+     border: 3px solid rgb(37, 36, 36);
+     border-radius: 5px; background-color: rgb(117, 172, 112);
+     background: linear-gradient(to left,rgb(38, 41, 38),rgb(81, 121, 101),rgb(47, 49, 47));
+ }
+ 
+ 
+ 
+ 
+ 
+ .codMensagem{
+     display: none;
+ }
+ 
+ .invisivel{
+     display: none;
+ }
+ button{
+     border: 3px solid black;
+     border-radius: 5px;
+     background-color:rgb(206, 206, 206);
+     font-size: 18px;
+ }
+ audio{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+ }
+
+
+
+
+

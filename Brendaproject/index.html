@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+    <form>
+        <section class="Eu">
+            <div class="título">
+                <h1>Cod. & Decod.</h1>
+            </div>
+            <section class="secaoMsg">
+                <div class ="divMsg">
+                    <label>Digite sua mensagem:</label><br>
+                    <input type="text" class="txt" />
+                </div>
+                
+                <div class="divResultado">
+                    <p class="result">Resultado:</p>
+                    <p class="respostaTxt invisivel"></p>
+                </div>
+            </section>
+
+            <section class="opcoes">
+                <select class='selecionar' name="selecionar">
+                    <option value="option" class="opcao">Opções</option>
+                    <option value="base64" class="base">Base64</option>
+                    <option value="cifras" class="cifra">Cifra de césar</option>
+                </select>
+            </section>
+
+            <section class="deslocamento invisivel">
+                <label>Quantas casas quer deslocar?</label><br>
+                <input type="number" class="desloc" />
+            </section>
+
+            <section class="radBtn">
+                <div>
+                    <input type="radio" class="paraCod" name="cod" value="cod">
+                    <label for="cod">Codificar</label>
+                </div>
+                <div>
+                    <input type="radio" class="paraDecod" name="cod" value="cod">
+                    <label for="decod">Decodificar</label>
+                </div>
+            </section>
+            <section class="botoes">
+                <button type="submit" class="codificar codMensagem">Codificar Mensagem!</button>
+                <button type="submit" class="decodificar codMensagem">Decodificar Mensagem!</button>
+            </section>
+          
+            
+        </section>
+
+    </form>
+    <section>
+        <audio controls autoplay loop>
+            <source src="mp3.mp3">
+    
+          </audio>
+     </section>
+</body>
+<script src="script.js"></script>
+</html>
